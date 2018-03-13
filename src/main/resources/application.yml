@@ -1,0 +1,23 @@
+server:
+  port: 4545
+spring:
+  application:
+    name: spbootswagger
+management:
+  security:  
+   enabled: false   
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+  endpoints:
+    jmx:
+      exposure:
+       include: '*'
+    web:
+     exposure:
+      include: '*'
+      base-path: /actuator
+    cors:
+      allowed-origins: true
+      enabled-by-default: false
