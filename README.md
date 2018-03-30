@@ -5,6 +5,8 @@ In this application Swagger Integrated with Spring Boot 2, project up as WebAppl
 
 Run it as Spring boot application and access http://localhost:4545/swagger-ui.html and enjoy.
 
+Test http://localhost:4545/api/v1/actions/linearSearch
+
 # Build and run
 
 To get up in a few lines, just :
