@@ -19,3 +19,7 @@ cd springboot2-swagger.git
 mvn spring-boot:run
 firefox localhost:4545/swagger-ui.html
 ```
+
+Latest update: Swagger Configuration Latest working example you can see here
+
+https://github.com/armdev/zero-hero-rsocket/blob/master/twitter/pom.xml
